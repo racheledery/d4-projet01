@@ -1,0 +1,17 @@
+h1{
+  font-family: 'anton',serif;
+  font-size: 2em ;
+}
+
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.output {
+    background: #eee;
+    position: relative;
+}
