@@ -1,8 +1,64 @@
-h1{
-  font-family: 'anton',serif;
-  font-size: 2em ;
+
+
+body {
+  background: #;
 }
 
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+h1{
+  font-family: 'Pacifico', cursive;
+  font-size: 3.5em ;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  color: #FFBF00;
+}
+
+.cercle{
+    margin:10px;
+    width:250px;
+    background: #FFBF00;
+    height:150px;
+    text-align:center;
+    line-height:8;
+    border-radius:150px;
+    <strong>line-height: 90px; /* 100 - 10 */</strong>
+
+}
+
+#Conteneur {
+  display: flex;
+  align-content: space-between;
+
+}
+
+p{
+  font-family: 'Pacifico', cursive;
+  font-size: 2.5em ;
+  margin-bottom: 1.5em;
+  margin-top: 2em;
+  text-align: center
+
+}
+
+ul {
+    list-style-type: none;
+
+    text-align: center;
+}
+
+p2{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 1.2em ;
+  padding-left: 0px;
+
+}
 
 footer {
     font-size: .8rem;
