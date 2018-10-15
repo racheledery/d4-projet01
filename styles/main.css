@@ -1,51 +1,74 @@
 
 
 body {
-  background: #;
+background-color: #FF5833
+
 }
 
 img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+display:block;
+width:auto;
+margin-left:auto;
+margin-right:auto;
 }
-
 
 h1{
   font-family: 'Pacifico', cursive;
   font-size: 3.5em ;
   text-align: center;
-  margin-top: 1em;
-  margin-bottom: 1em;
-  color: #FFBF00;
-}
-
-.cercle{
-    margin:10px;
-    width:250px;
-    background: #FFBF00;
-    height:150px;
-    text-align:center;
-    line-height:8;
-    border-radius:150px;
-    <strong>line-height: 90px; /* 100 - 10 */</strong>
-
+  color: #000000;
+  background-color: #90EE90;
+  padding: 20px;
+  margin-bottom: 70px;
 }
 
 #Conteneur {
   display: flex;
-  align-content: space-between;
-
+  justify-content: space-around;
 }
 
-p{
+h2{
   font-family: 'Pacifico', cursive;
   font-size: 2.5em ;
   margin-bottom: 1.5em;
   margin-top: 2em;
-  text-align: center
-
+  text-align: center;
 }
+
+h3{
+  font-family: 'Pacifico', cursive;
+  color: #000000;
+  font-size: 2.5em ;
+  margin-bottom: 1.5em;
+  text-align: center;
+  background-color: #90EE90;
+  border-radius:150px;
+  margin-left: 300px;
+  margin-right: 300px;
+  padding: 15px;
+}
+
+.imagespages {
+width: 350px;
+}
+
+p{
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 1.2em
+}
+
+#intro {
+  padding: 0 150px;
+  margin-top: 120px;
+  align-items: center;
+  }
+
+video{
+    display:block;
+    width:1100px;
+    height:900px;
+    margin:0 auto 80px auto
+  }
 
 ul {
     list-style-type: none;
@@ -53,11 +76,50 @@ ul {
     text-align: center;
 }
 
-p2{
+.narrative-link {
+  display: block;
+  min-width: 200px
+  padding : 5px 20px;
   font-family: 'Hammersmith One', sans-serif;
   font-size: 1.2em ;
-  padding-left: 0px;
+  margin:5px;
+  background: #90EE90;
+  text-align:center;
+  line-height:8;
+  border-radius:150px;
+  color: #000000;
+  margin-bottom: 30px;
+}
 
+
+.narrative-link02 {
+  display: block;
+  padding : 5px 20px;
+  float: right;
+  margin: 20px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 1.2em ;
+  margin:10px;
+  background: #90EE90;
+  text-align:center;
+  line-height:8;
+  border-radius:150px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+
+.narrative-link03 {
+  padding : 5px 20px;
+  float: left;
+  margin: 20px;
+  font-family: 'Hammersmith One', sans-serif;
+  font-size: 1.2em ;
+  margin:10px;
+  background: #90EE90;
+  text-align:center;
+  line-height:8;
+  border-radius:150px;
+  color: #000000;
 }
 
 footer {
