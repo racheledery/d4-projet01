@@ -1,7 +1,7 @@
 
 
 body {
-background-color: #FF4633;
+background-color: #FF333F;
 }
 
 img {
@@ -21,9 +21,15 @@ h1{
   margin-bottom: 70px;
 }
 
-#Conteneur {
+#conteneur {
   display: flex;
   justify-content: space-around;
+}
+
+.cercle {
+  flex-basis : 250px;
+  flex-grow: 0;
+  flex-shrink: 1;
 }
 
 h2{
@@ -90,9 +96,11 @@ ul {
   margin-bottom: 30px;
 }
 
+
+
 .narrative-link02 {
   display: block;
-  padding : 1px 70px;
+  padding : 1px 80px;
   float: right;
   font-family: 'Hammersmith One', sans-serif;
   font-size: 1.2em ;
@@ -107,7 +115,7 @@ ul {
 
 
 .narrative-link03 {
-  padding : 1px 20px;
+  padding : 1px 30px;
   float: left;
   font-family: 'Hammersmith One', sans-serif;
   font-size: 1.2em ;
@@ -120,7 +128,7 @@ ul {
 }
 
 .narrative-link04 {
-  padding : 1px 55px;
+  padding : 1px 70px;
   float: left;
   font-family: 'Hammersmith One', sans-serif;
   font-size: 1.2em ;
@@ -133,7 +141,7 @@ ul {
 }
 
 .narrative-link05 {
-  padding : 1px 20px;
+  padding : 1px 30px;
   float: right;
   font-family: 'Hammersmith One', sans-serif;
   font-size: 1.2em ;
